@@ -1,5 +1,5 @@
 const accountId = 144553      //never change value
-let accountEmail = "hitesh@google.com"   
+let accountEmail = "izhar@google.com"   
 var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;           // undefine value
@@ -7,7 +7,7 @@ let accountState;           // undefine value
 // accountId = 2 // not allowed
 
 
-accountEmail = "hc@hc.com"
+accountEmail = "iz@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
