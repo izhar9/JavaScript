@@ -1,4 +1,4 @@
-//  Primitive(Stack(it gives copy of value))
+//  Primitive(Stack(it gives copy of value) it does not change original value)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)(Heap(it gives reference of value))
+// Reference (Non primitive)(Heap(it gives reference of value)it change original value)
 
 // Array, Objects, Functions
 
