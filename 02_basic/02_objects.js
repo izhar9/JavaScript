@@ -100,17 +100,22 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+
+// Object de-structuring
 const course = {
     coursename: "js in hindi",
     price: "999",
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+// course.courseInstructor   // normal way to extract value from object
 
-const {courseInstructor: instructor} = course
+const {courseInstructor} = course   // extract the value from course obejct (now if you want courseInstructor, don't need to write course.courseInstructor every time, just write courseInstructor)
 
 // console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course   // line 111 and 114 both are same but in line 114 we give the shorter name(like nickname)(courseInstructor => instructor)
+
 console.log(instructor);
 
 // {
