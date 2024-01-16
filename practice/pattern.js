@@ -8,14 +8,15 @@ for(i=1 ; i<=5 ; i++){
 }
 */
 /*
-for(i=1 ; i<5 ; i++){
+for(i=1 ; i<=5 ; i++){
     for(j=5;j>=i;j--){
         // console.log("*");
         process.stdout.write("*")
     }
     process.stdout.write("\n")
 }
-
+*/
+/*
 // 2nd method
 for(i=1 ; i<=5 ; i++){
     for(j=i;j<=5;j++){
@@ -98,7 +99,7 @@ for(i=1;i<=5;i++){
 }
 
 */
-
+/*
 for(i=1;i<5;i++){
     for(j=i;j<=5;j++){
         process.stdout.write("  ")
@@ -123,4 +124,4 @@ for(i=1;i<=5;i++){
     }
         process.stdout.write("\n")
 }
-
+*/
