@@ -17,7 +17,7 @@ if (true) {
 
 
 // function one(){
-//     const username = "hitesh"
+//     const username = "Izhar"
 
 //     function two(){
 //         const website = "youtube"
@@ -32,8 +32,8 @@ if (true) {
 // one()
 
 // if (true) {
-//     const username = "hitesh"
-//     if (username === "hitesh") {
+//     const username = "Izhar"
+//     if (username === "Izhar") {
 //         const website = " youtube"
         // console.log(username + website);
     // }
@@ -46,15 +46,19 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-// console.log(addone(5))
+// addone(5)
 
 // function addone(num){
 //     return num + 1
 // }
 
+// console.log(addone(5))
 
 
-// addTwo(5)
+// addTwo(5)        // it show error because we call the function before initialization
+
 // const addTwo = function(num){
 //     return num + 2
 // }
+
+// addTwo(5)
