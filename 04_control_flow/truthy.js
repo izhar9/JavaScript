@@ -24,10 +24,11 @@ if (Object.keys(emptyObj).length === 0) {
 }
 
 // Nullish Coalescing Operator (??): null undefined
+// Nullish operator is used for null and undefined 
 
 let val1;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
+// val1 = 5 ?? 10        // here it print 5 because it take first value
+// val1 = null ?? 10     // here it print 10 because it ignore null and undefined value
 // val1 = undefined ?? 15
 val1 = null ?? 10 ?? 20
 
