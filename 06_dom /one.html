@@ -20,14 +20,22 @@
         <p>Lorem ipsum dolor sit amet.</p>
         <input type="password" name="" id="">
 
-        <ul>
+        <ul class="one">
             <li class="list-item">one</li>
             <li class="list-item">two</li>
             <li class="list-item">three</li>
             <li class="list-item">four</li>
         </ul>
     </div>
-    <script>
+    <!-- <script> -->
+
+        let title = document.getElementById('title');
+        title.innerText  // it show only visible text in document(It not show hiden text like using dispaly:none property(line 16 in span tag)it not show span tag content because it's display none)
+
+        title.textContent // it show all text, if you hide any text then it show that text also(like if you hide any text using display:none property then that text also show(line 16 in span tag)it  show span tag content after it's display none)
+
+        title.innerHTML  // it show html tags also, with text, means all things which is in the id attribute
+
         document.querySelector('h2') // it gives only first h2
 
         document.querySelector('#title') // we use # for id
@@ -54,12 +62,7 @@
         // now we can use array method on HTMLCollection
 
 
-
-
-
-
-
         // read more about DOM from google
-    </script>
+    <!-- </script> -->
 </body>
 </html>
