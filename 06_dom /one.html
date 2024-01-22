@@ -27,5 +27,21 @@
             <li class="list-item">four</li>
         </ul>
     </div>
+    <script>
+        document.querySelector('h2') // it gives only first h2
+
+        document.querySelector('#title') // we use # for id
+
+        document.querySelector('.heading') // we use . for class
+
+        document.querySelectorAll('h2') // it gives all h2. It give NodeList so that we can not manipurate direct. for example
+
+        let list = document.querySelectorAll('h2')
+        list.style.backgroundColor = "red" //It show error because we can note manipulate direct.
+
+        list[0].style.backgroundColor = "red"  // It is correct way, means we have to define the child element which child element we want to manipulate.
+
+        // in querySelectorAll many method is there(like forEach) we can see the many in online or by inspect and using console in inspect by searching the name (like list)
+    </script>
 </body>
 </html>
