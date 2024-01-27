@@ -31,13 +31,15 @@
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
-    // document.getElementById('images').addEventListener('click', function(e){
-    //     console.log("clicked inside the ul");
-    // }, false)
+    document.getElementById('images').addEventListener('click', function(e){
+        console.log("clicked inside the ul");
+    }, false)// 3rd parameter is called event propogation // false is a bubbling event which is perform bottom to top
+
+    // true is a capturing event which is perform by top to bottom
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation()   // ye upper ke event par jaane se rokta hai(inside event ko rokta hai)
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
