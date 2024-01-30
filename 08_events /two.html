@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    setTimeout(()=>{         // handler and callback function both declare same way(means function name is not require)
+        console.log("hii");
+    },2000)
+
+
+    const sayIzhar = function(){
+        console.log("Izhar");
+    }
+    const reference = setTimeout(sayIzhar, 4000) // we can also give reference of handler in setTimeout.If we give reference then () is not require(kyuki function ka naam hi nahi hai to use call kaise kar sakte hai isliye () ki jarurat nahi hota hai ).line 21 we give sayIzhar function reference in setTimeout
+
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Bye"    
+    }
+    const changeMe = setTimeout(changeText, 6000)   // it change in html tag Hello to Bye
+
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout()  // it clear the setTimeout(matlab setTimeout fuction ko execute hone se rokta hai) .It take reference of setTimeout
+        console.log("STOPPED")
+    })
+</script>
+</html>
