@@ -16,24 +16,24 @@ let heroPower = {
     }
 }
 
-Object.prototype.hitesh = function(){
-    console.log(`hitesh is present in all objects`);
+Object.prototype.izhar = function(){  // agar object me koi bhi prototype inject(add) karenge to use prototype ko sab(array, string, function) use kar sakte hai. kyuki javascript me sab object hota hai.
+    console.log(`izhar is present in all objects`);
 }
 
-Array.prototype.heyHitesh = function(){
-    console.log(`Hitesh says hello`);
+Array.prototype.heyIzhar = function(){  // agar array me prototype add kiye to us prototype ko sirf array hi use kar sakta hai.
+    console.log(`Izhar says hello`);
 }
 
-// heroPower.hitesh()
-// myHeros.hitesh()
-// myHeros.heyHitesh()
-// heroPower.heyHitesh()
+// heroPower.izhar()
+// myHeros.izhar()
+// myHeros.heyIzhar()
+// heroPower.heyIzhar()
 
 // inheritance
 
 const User = {
-    name: "chai",
-    email: "chai@google.com"
+    name: "izhat",
+    email: "izhar@google.com"
 }
 
 const Teacher = {
@@ -47,13 +47,13 @@ const TeachingSupport = {
 const TASupport = {
     makeAssignment: 'JS assignment',
     fullTime: true,
-    __proto__: TeachingSupport
+    __proto__: TeachingSupport // prototype inheritance TASupport TeachingSupport ka property access kar raha hai 
 }
 
-Teacher.__proto__ = User
+Teacher.__proto__ = User  // prototype inheritance teacher user ka property access kar raha hai  
 
 // modern syntax
-Object.setPrototypeOf(TeachingSupport, Teacher)
+Object.setPrototypeOf(TeachingSupport, Teacher) // prototype inheritance TeachingSupport Teacher ka property access kar raha hai
 
 let anotherUsername = "ChaiAurCode     "
 
