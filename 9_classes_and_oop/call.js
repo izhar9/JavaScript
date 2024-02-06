@@ -5,7 +5,7 @@ function SetUsername(username){
 }
 
 function createUser(username, email, password){
-    SetUsername.call(this, username)
+    SetUsername.call(this, username)  //call passes the current execution context to another function.call setUsername ka reference hold karke rakhta hai.
    
     this.email = email
     this.password = password
