@@ -1,3 +1,5 @@
+// find even or odd numbers in array
+
 let array = [5,10,15,20,30,45,58,89]
 
 // function evenOdd(arr) {
