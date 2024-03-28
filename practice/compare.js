@@ -1,3 +1,6 @@
+// compare two Arrays are Equal or Not
+
+
 let arr1 = [2,3,4,5,6,7];
 let arr2 = [6,5,4,3,2,7];
 
