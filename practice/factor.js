@@ -1,3 +1,5 @@
+ // find factor of a given integer
+
 const factor = (num) =>{
     if(num < 0){
         console.log('Please enter positive number');
