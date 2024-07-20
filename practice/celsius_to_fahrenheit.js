@@ -2,7 +2,7 @@
 
 let celsius = 14;
 
-let celsiusToFahrenheit = celsius * 1.8 + 32
+let celsiusToFahrenheit = celsius * 1.8(9/5) + 32
 
 console.log(`convert celsius ${celsius} to fahrenheit is : ${celsiusToFahrenheit}`);
 
